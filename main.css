@@ -1,0 +1,14 @@
+body {
+  background-color: #f0ece5;
+}
+
+.logo {
+  font-weight: 700;
+}
+#profile {
+  margin-top: 5rem;
+}
+#profile img {
+  border-radius: 50%;
+  width: 70%;
+}
