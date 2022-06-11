@@ -17,13 +17,17 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <!-- header block -->
     <header>
       <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand logo" href="#">
             <img src="logo.png" width="25px" /> Dev.io
           </a>
@@ -69,19 +73,38 @@
       <div class="container">
         <div class="row">
           <!-- Summary About Me -->
-          <div class="col-6">
-            <button>Click Here, Send me a message!</button>
+          <div class="col-md-6">
+            <button class="btn btn-primary my-4">
+              Click Here, Send me a message!
+            </button>
             <h2>I'm Dev.IO</h2>
-            <h3>Web Design & Mobile App Dev</h3>
-            <div>
-              <p>282 Kevin Brook, Imogeneborough, CA 58517</p>
-              <p>+855 70 122 655</p>
-              <p>demo.dev@setec.com</p>
+            <h3 class="mb-5"><b>Web</b> Design & <b>Mobile</b> App Dev</h3>
+            <div class="info mb-5">
+              <p>
+                <span><i class="fas fa-map-marked-alt"></i></span>
+                282 Kevin Brook, Imogeneborough, CA 58517
+              </p>
+              <p>
+                <span><i class="fas fa-mobile"></i></span> +855 70 122 655
+              </p>
+              <p>
+                <span><i class="fas fa-envelope-open"></i></span>
+                demo.dev@setec.com
+              </p>
+            </div>
+            <div class="social">
+              <span class="social-fb"><img src="facebook.png" /></span>
+              <span class="social-tw"><img src="twitter.png" /></span>
+              <span class="social-ig"> <img src="ig.png" /> </span>
+              <span class="social-yt"><img src="youtube.png" /></span>
+              <span class="social-gh"><img src="github.png" /></span>
+              <span class="social-sp"> <img src="skype.png" /> </span>
             </div>
           </div>
+
           <!-- Photo -->
-          <div class="col-6">
-            <img src="user.jpg" class="img-fluid img-thumbnail" />
+          <div class="col-md-6 text-center order-1">
+            <img src="user.jpg" class="img-fluid img-thumbnail mt-5" />
           </div>
         </div>
       </div>
